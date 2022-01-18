@@ -337,7 +337,7 @@ function dps_meter()
 
     local x = 800
     local y = 130
-    local width = 300
+    local width = 940
     local height = 10
 
     local bar_shift = 17
