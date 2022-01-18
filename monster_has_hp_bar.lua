@@ -191,7 +191,7 @@ function monster_hp()
 
         local spacing = 20
 
-        local x = 50 + width * i + spacing * i
+        local x = 800 + width * i + spacing * i
         local y = 100
 
         missing_monster_hp = missing_monster_hp + (hp_entry.max_hp - hp_entry.hp)
@@ -335,7 +335,7 @@ function dps_meter()
 
     local player_total_damage = player_total_attack_damage + player_total_elemental_attack_damage + player_total_status_ailments_damage
 
-    local x = 50
+    local x = 800
     local y = 130
     local width = 300
     local height = 10
